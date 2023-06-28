@@ -1,0 +1,68 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    {{>header}}
+   </head>
+   <body>
+    {{>navbar}}
+    <br>
+    <br>
+    <br>
+    <section id="s1">
+      <br>
+      <br>
+    <div class="container" >
+        <div class="row">
+        <div class="col-md-3">
+                      
+        </div>
+                  
+        <div class="col-md-6 main">
+                      
+            <form action="/register" method="post">
+                      
+            <h1> Signup form </h1>
+
+            <input class="box" type="text" name="accn" id="accn"  
+            placeholder="Account Number" required/><br>
+                              
+            <input class="box" type="text" name="name" id="name" 
+            placeholder="Name"  required /><br>
+                              
+            <input class="box" type="email" name="email" id="email" 
+            placeholder="E-Mail " required /><br>
+                              
+            <input class="box" type="password" name="password" 
+            id="password" placeholder="Password " required/><br>
+
+            <input class="box" type="password" name="cpassword" 
+            id="cpassword" placeholder="Confirm Password " required/><br>
+                              
+            <input class="box" type="text" name="phone" id="phone"  
+            placeholder="Phone Number " required/><br>
+                        <br>
+            <input type="submit" id="submitDetails"  
+            name="submitDetails" value="Submit" /><br></a>
+              <a href="login">Already a member? Click here to Login</a>  
+            </form>
+                      
+        </div>
+                  
+                  
+        <div class="col-md-3">
+        </div>
+      </div>
+     </section>
+   <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2020 SAFEIT</p>
+    </div>
+  </footer>
+ </div>
+    
+   </body>
+   </html>
